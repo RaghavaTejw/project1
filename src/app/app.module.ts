@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatTableModule} from '@angular/material/table';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {MatTableModule} from '@angular/material/table';
     LoginComponent,
     DashboardComponent,
     MaterialComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

@@ -23,4 +23,7 @@ export class AppComponent {
   MaterialDemo(){
     this.router.navigate(['/MaterialDemo']);
   }
+  Register(){
+    this.router.navigate(['/Register']);
+  }
 }
