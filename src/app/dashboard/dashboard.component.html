@@ -1,0 +1,12 @@
+
+<div class="login" style="text-align:center;">
+    <h1 style="background-color:red;">Dashboard Page</h1>
+  </div><br>
+<div *ngFor="let i of tstSvc.getPlayers()" style="background-color:antiquewhite;">
+    <div class="display" style="text-align:center;background-color:aquamarine;">
+        <b>Name:</b>{{i.name}}<br><br>
+        <b>Runs Scored:</b>{{i.runs}}<br><br>
+        <b>City:</b>{{i.city}}<br><br>
+        <img src={{i.image}} width="250" height="250"/>
+    </div><br><br>
+</div>

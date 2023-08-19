@@ -1,0 +1,14 @@
+<body>
+    <div class="login" style="text-align:center;">
+        <h1 style="background-color:red;">Login Page</h1>
+      </div><br><br>
+    <img src="{{path}}" width="250" heigth="250" style="margin-left:510px;"/>
+<div style="text-align:center;">
+    <label><b>Enter UserId:   </b></label>
+<input type="text" [(ngModel)]="userId" /><br><br>
+<label><b>Enter password: </b></label>
+<input type="password" [(ngModel)]="password" />
+<br><br>
+<button (click)="Login()" style="background-color:green;">Login</button>
+</div>
+</body>
