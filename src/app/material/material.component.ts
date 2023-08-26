@@ -11,5 +11,7 @@ export class MaterialComponent {
     
   }
   displayedColumns: string[] = ['Name', 'Runs', 'City', 'Image'];
-  dataSource:any=this.ser.getPlayers();
+  dataSource:any=this.ser.fetchPlayers().subscribe((data)=>{
+    this.dataSource=data;
+  });
 }

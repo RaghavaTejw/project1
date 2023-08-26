@@ -13,7 +13,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatTableModule} from '@angular/material/table';
 import { RegisterComponent } from './register/register.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +29,8 @@ import { RegisterComponent } from './register/register.component';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatProgressSpinnerModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [TestService],
   bootstrap: [AppComponent]

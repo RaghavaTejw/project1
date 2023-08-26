@@ -1,0 +1,29 @@
+{
+  "Players":[
+      {
+        "name":"Virat kohli",
+        "runs":"27000",
+        "city":"Delhi",
+        "image":"../assets/Virat.jpg"
+      },
+      {
+        "name":"M.S. Dhoni",
+        "runs":"20000",
+        "city":"Ranchi",
+        "image":"../assets/dhoni.jpg"
+      },
+      {
+        "name":"Suryakumar yadav",
+        "runs":"10000",
+        "city":"Mumbai",
+        "image":"../assets/Surya.jpg"
+      },
+      {
+        "name":"Ambati rayudu",
+        "runs":"20000",
+        "city":"Guntur",
+        "image":"../assets/rayudu.jpg"
+      }
+    
+    ]
+}
